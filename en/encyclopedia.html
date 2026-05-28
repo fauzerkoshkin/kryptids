@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cryptids — Encyclopedia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gulzar&family=Mukta:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-bleed">
+        <div class="header-top">
+          <a class="logo" href="index.html" aria-label="Home">
+            <img src="../img/header-logo.png" alt="" width="32" height="32" />
+          </a>
+          <div class="welcome-bar">
+            <p>WELCOME TO “CRYPTIDS”!</p>
+          </div>
+        </div>
+      </div>
+      <div class="header-bleed header-bleed--nav">
+        <nav class="nav-main" aria-label="Main navigation">
+          <a class="nav-btn" href="map.html">MAP</a>
+          <a class="nav-btn" href="stories.html">STORIES</a>
+          <a class="nav-btn" href="blogs.html">BLOGS</a>
+          <a class="nav-btn nav-btn--current" href="encyclopedia.html" aria-current="page">ENCYCLOPEDIA</a>
+          <a class="nav-search" href="#cryptid-search" aria-label="Search cryptids by name">
+            <img src="../img/nav-search-icon.png" alt="" width="22" height="22" decoding="async" />
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="encyclopedia-top">
+      <div class="main-wrap">
+        <h1 class="page-title">Encyclopedia</h1>
+
+        <div id="cryptid-search" class="search-panel" role="search" aria-labelledby="search-panel-title">
+          <div class="search-panel__head">
+            <h2 id="search-panel-title" class="search-panel__title">Search cryptids</h2>
+            <a href="#encyclopedia-top" class="search-panel__close" aria-label="Hide search panel" title="Close">×</a>
+          </div>
+          <form id="cryptid-search-form" class="search-panel__form" action="encyclopedia.html" method="get">
+            <label for="cryptid-search-input">Name</label>
+            <input
+              type="search"
+              id="cryptid-search-input"
+              name="q"
+              placeholder="e.g. Bigfoot"
+              autocomplete="off"
+            />
+            <button type="submit" class="btn-dark search-panel__submit">Search</button>
+          </form>
+        </div>
+
+        <nav class="alpha-row" aria-label="Filter by letter">
+          <a class="alpha-btn" href="#letter-a">A</a>
+          <a class="alpha-btn" href="#letter-b">B</a>
+          <a class="alpha-btn" href="#letter-v">V</a>
+          <a class="alpha-btn" href="#letter-g">G</a>
+          <a class="alpha-btn" href="#letter-d">D</a>
+          <a class="alpha-btn" href="#letter-e">E</a>
+          <button type="button" class="alpha-btn alpha-btn--wide alpha-btn--expand">
+            OTHER
+          </button>
+          <div class="alpha-row__more" aria-label="Rest of the Latin alphabet">
+            <a class="alpha-btn" href="#letter-c">C</a>
+            <a class="alpha-btn" href="#letter-f">F</a>
+            <a class="alpha-btn" href="#letter-h">H</a>
+            <a class="alpha-btn" href="#letter-i">I</a>
+            <a class="alpha-btn" href="#letter-j">J</a>
+            <a class="alpha-btn" href="#letter-k">K</a>
+            <a class="alpha-btn" href="#letter-l">L</a>
+            <a class="alpha-btn" href="#letter-m">M</a>
+            <a class="alpha-btn" href="#letter-n">N</a>
+            <a class="alpha-btn" href="#letter-o">O</a>
+            <a class="alpha-btn" href="#letter-p">P</a>
+            <a class="alpha-btn" href="#letter-r">R</a>
+            <a class="alpha-btn" href="#letter-s">S</a>
+            <a class="alpha-btn" href="#letter-t">T</a>
+            <a class="alpha-btn" href="#letter-u">U</a>
+            <a class="alpha-btn" href="#letter-w">W</a>
+            <a class="alpha-btn" href="#letter-y">Y</a>
+            <a class="alpha-btn" href="#letter-z">Z</a>
+            <div class="alpha-row__more-footer">
+              <button type="button" class="alpha-btn alpha-btn--wide alpha-btn--collapse">
+                HIDE
+              </button>
+            </div>
+          </div>
+        </nav>
+
+        <div class="encyclopedia-grid">
+          <div class="letter-group" id="letter-a">
+            <h2 class="letter-group__title">A</h2>
+            <a class="entry-card" id="cryptid-alma" href="#cryptid-alma"><img src="../img/cryptid-alma.png" alt="" width="52" height="52" decoding="async" /><span>Alma</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-06.png" alt="" width="52" height="52" decoding="async" /><span>Almasty, snowman</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-07.png" alt="" width="52" height="52" decoding="async" /><span>Hangar near Vyborg (1987)</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Agropelter</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-b">
+            <h2 class="letter-group__title">B</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-09.png" alt="" width="52" height="52" decoding="async" /><span>Siberian cat</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Bigfoot</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-11.png" alt="" width="52" height="52" decoding="async" /><span>Behemoth</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Swamp monster</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-v">
+            <h2 class="letter-group__title">V</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-13.png" alt="" width="52" height="52" decoding="async" /><span>Volga monitor</span></a>
+            <a class="entry-card" id="cryptid-vakhila" href="#cryptid-vakhila"><img src="../img/cryptid-vakhila.png" alt="" width="52" height="52" decoding="async" /><span>Vakhila</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-15.png" alt="" width="52" height="52" decoding="async" /><span>Giant of Kandahar</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-g">
+            <h2 class="letter-group__title">G</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Giant Yakut worm</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-17.png" alt="" width="52" height="52" decoding="async" /><span>Gloucester sea beast</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-18.png" alt="" width="52" height="52" decoding="async" /><span>Hound with axe</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-19.png" alt="" width="52" height="52" decoding="async" /><span>Glavacus</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-d">
+            <h2 class="letter-group__title">D</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-20.png" alt="" width="52" height="52" decoding="async" /><span>Donets demon</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-21.png" alt="" width="52" height="52" decoding="async" /><span>Domodedovo horse</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Wooden houses</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-23.png" alt="" width="52" height="52" decoding="async" /><span>Children’s policeman</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-e">
+            <h2 class="letter-group__title">E</h2>
+            <a class="entry-card" id="cryptid-elisey" href="#cryptid-elisey"><img src="../img/cryptid-elisey.png" alt="" width="52" height="52" decoding="async" /><span>Elisey</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-25.png" alt="" width="52" height="52" decoding="async" /><span>Yenisei</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-26.png" alt="" width="52" height="52" decoding="async" /><span>Emelya of Yaroslavl</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-18.png" alt="" width="52" height="52" decoding="async" /><span>Russian unicorn (Moscow)</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-c">
+            <h2 class="letter-group__title">C</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Cedar swamp howler</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-f">
+            <h2 class="letter-group__title">F</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Feron monastery phantom</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Fen flicker</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-h">
+            <h2 class="letter-group__title">H</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Howler of Onega</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Haystack mimic</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Horned hermit of Khopyor</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-i">
+            <h2 class="letter-group__title">I</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Ice walker of Irkutsk</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-j">
+            <h2 class="letter-group__title">J</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Jack-o’-tundra</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Jurassic joke fish</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-k">
+            <h2 class="letter-group__title">K</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Karelian knock-knock spirit</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-18.png" alt="" width="52" height="52" decoding="async" /><span>Kettle boggart</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Khopyor kelpie</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-l">
+            <h2 class="letter-group__title">L</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Lamp-shade leshy</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-m">
+            <h2 class="letter-group__title">M</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Moscow outskirts mothman</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Maple-sap sasquatch</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-n">
+            <h2 class="letter-group__title">N</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Neva neck</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Nesting needle beast</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Noseless night guard</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-o">
+            <h2 class="letter-group__title">O</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Ob River werewolf</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-p">
+            <h2 class="letter-group__title">P</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Perm pillow fiend</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Pripyat puddle thing</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-r">
+            <h2 class="letter-group__title">R</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-18.png" alt="" width="52" height="52" decoding="async" /><span>Rye-field reaper</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-s">
+            <h2 class="letter-group__title">S</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Samara sleep-paralysis crow</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Seliger siren</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-t">
+            <h2 class="letter-group__title">T</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Tver tape-measure monster</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Taiga tap dancer</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Tungus tickler</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-u">
+            <h2 class="letter-group__title">U</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Ural upside-down man</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-w">
+            <h2 class="letter-group__title">W</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>White Sea whisperer</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Wood-stove wailer</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-y">
+            <h2 class="letter-group__title">Y</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Yarn yeti yawn</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-z">
+            <h2 class="letter-group__title">Z</h2>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Zori zombie bear</span></a>
+            <a class="entry-card" href="#"><img src="../img/encyclopedia-18.png" alt="" width="52" height="52" decoding="async" /><span>Zelenodolsk zipper sound</span></a>
+          </div>
+
+        </div>
+
+        <div
+          class="encyclopedia-pager"
+          id="encyclopedia-pager"
+          role="navigation"
+          aria-label="Browse by letter page"
+        >
+          <button type="button" class="encyclopedia-pager__btn encyclopedia-pager__prev" id="encyclopedia-pager-prev">
+            Back
+          </button>
+          <span class="encyclopedia-pager__status" id="encyclopedia-pager-status" aria-live="polite"></span>
+          <button type="button" class="encyclopedia-pager__btn encyclopedia-pager__next" id="encyclopedia-pager-next">
+            Next
+          </button>
+        </div>
+
+        <div class="cta-wrap">
+          <a class="btn-dark" href="blogs.html">BLOGS</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <nav class="footer-links" aria-label="Footer menu">
+          <a href="#">Shop</a>
+          <a href="#">Support the site</a>
+          <a href="#">Contacts</a>
+        </nav>
+        <nav class="footer-legal" aria-label="Legal">
+          <a href="privacy.html">Privacy policy</a>
+          <span class="footer-legal__sep" aria-hidden="true">|</span>
+          <a href="cookies.html">Cookie policy</a>
+        </nav>
+        <div class="social" aria-label="Social">
+          <a class="social__link" href="#" aria-label="Telegram">
+            <img src="../img/telegram.png" alt="" width="32" height="32" decoding="async" />
+          </a>
+          <a class="social__link" href="#" aria-label="VK">
+            <img src="../img/vk.png" alt="" width="32" height="32" decoding="async" />
+          </a>
+        </div>
+        <div class="lang-switch" role="group" aria-label="Site language">
+          <a href="../encyclopedia.html" class="lang-btn" hreflang="ru" lang="ru">Ru</a>
+          <span class="lang-sep" aria-hidden="true">·</span>
+          <span class="lang-btn lang-btn--current" lang="en">Eng</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/encyclopedia-search.js" defer></script>
+  </body>
+</html>
