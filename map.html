@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Криптиды — карта</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gulzar&family=Mukta:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-bleed">
+        <div class="header-top">
+          <a class="logo" href="index.html" aria-label="На главную">
+            <img src="img/header-logo.png" alt="" width="32" height="32" />
+          </a>
+          <div class="welcome-bar">
+            <p>ДОБРО ПОЖАЛОВАТЬ В «КРИПТИДЫ»!</p>
+          </div>
+        </div>
+      </div>
+      <div class="header-bleed header-bleed--nav">
+        <nav class="nav-main" aria-label="Основная навигация">
+          <a class="nav-btn nav-btn--current" href="map.html" aria-current="page">КАРТА</a>
+          <a class="nav-btn" href="stories.html">ИСТОРИИ</a>
+          <a class="nav-btn" href="blogs.html">БЛОГИ</a>
+          <a class="nav-btn" href="encyclopedia.html">ЭНЦИКЛОПЕДИЯ</a>
+          <a class="nav-search" href="encyclopedia.html#cryptid-search" aria-label="Поиск криптидов по названию">
+            <img src="img/nav-search-icon.png" alt="" width="22" height="22" decoding="async" />
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-wrap">
+        <h1 class="page-title">Интерактивная карта</h1>
+        <p class="lead lead--map">
+          Достаточно ли ты знаком с местом, в котором живёшь, казалось бы, большую часть жизни?
+          Может, байки о страшных существах в лесу и водоёмах взяты не из пустого места…
+          Приоткрой занавес загадок своего региона!
+        </p>
+        <div class="map-panel">
+          <img
+            src="img/map-russia.png"
+            alt="Стилизованная карта России"
+            width="960"
+            height="480"
+            decoding="async"
+          />
+          <div class="map-hotspots">
+            <a
+              class="map-pin"
+              style="--pin-x: 26%; --pin-y: 58%"
+              href="encyclopedia.html#cryptid-alma"
+              aria-label="Альма — открыть карточку в энциклопедии"
+            >
+              <span class="map-pin__marker" aria-hidden="true">
+                <span class="map-pin__inner">
+                  <img class="map-pin__img" src="img/cryptid-alma.png" alt="" width="64" height="64" decoding="async" />
+                </span>
+              </span>
+              <span class="map-pin__caption">Альма</span>
+            </a>
+            <a
+              class="map-pin"
+              style="--pin-x: 47%; --pin-y: 44%"
+              href="encyclopedia.html#cryptid-vakhila"
+              aria-label="Вахила — открыть карточку в энциклопедии"
+            >
+              <span class="map-pin__marker" aria-hidden="true">
+                <span class="map-pin__inner">
+                  <img class="map-pin__img" src="img/cryptid-vakhila.png" alt="" width="64" height="64" decoding="async" />
+                </span>
+              </span>
+              <span class="map-pin__caption">Вахила</span>
+            </a>
+            <a
+              class="map-pin"
+              style="--pin-x: 73%; --pin-y: 38%"
+              href="encyclopedia.html#cryptid-elisey"
+              aria-label="Елисей — открыть карточку в энциклопедии"
+            >
+              <span class="map-pin__marker" aria-hidden="true">
+                <span class="map-pin__inner">
+                  <img class="map-pin__img" src="img/cryptid-elisey.png" alt="" width="64" height="64" decoding="async" />
+                </span>
+              </span>
+              <span class="map-pin__caption">Елисей</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <nav class="footer-links" aria-label="Нижнее меню">
+          <a href="#">Магазин</a>
+          <a href="#">Поддержать сайт</a>
+          <a href="#">Контакты</a>
+        </nav>
+        <nav class="footer-legal" aria-label="Правовая информация">
+          <a href="privacy.html">Политика конфиденциальности</a>
+          <span class="footer-legal__sep" aria-hidden="true">|</span>
+          <a href="cookies.html">Правила и условия использования файлов cookie</a>
+        </nav>
+        <div class="social" aria-label="Соцсети">
+          <a class="social__link" href="#" aria-label="Telegram">
+            <img src="img/telegram.png" alt="" width="32" height="32" decoding="async" />
+          </a>
+          <a class="social__link" href="#" aria-label="ВКонтакте">
+            <img src="img/vk.png" alt="" width="32" height="32" decoding="async" />
+          </a>
+        </div>
+        <div class="lang-switch" role="group" aria-label="Язык сайта">
+          <span class="lang-btn lang-btn--current" lang="ru">Ru</span>
+          <span class="lang-sep" aria-hidden="true">·</span>
+          <a href="en/map.html" class="lang-btn" hreflang="en" lang="en">Eng</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Криптиды — энциклопедия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gulzar&family=Mukta:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-bleed">
+        <div class="header-top">
+          <a class="logo" href="index.html" aria-label="На главную">
+            <img src="img/header-logo.png" alt="" width="32" height="32" />
+          </a>
+          <div class="welcome-bar">
+            <p>ДОБРО ПОЖАЛОВАТЬ В «КРИПТИДЫ»!</p>
+          </div>
+        </div>
+      </div>
+      <div class="header-bleed header-bleed--nav">
+        <nav class="nav-main" aria-label="Основная навигация">
+          <a class="nav-btn" href="map.html">КАРТА</a>
+          <a class="nav-btn" href="stories.html">ИСТОРИИ</a>
+          <a class="nav-btn" href="blogs.html">БЛОГИ</a>
+          <a class="nav-btn nav-btn--current" href="encyclopedia.html" aria-current="page">ЭНЦИКЛОПЕДИЯ</a>
+          <a class="nav-search" href="#cryptid-search" aria-label="Поиск криптидов по названию">
+            <img src="img/nav-search-icon.png" alt="" width="22" height="22" decoding="async" />
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="encyclopedia-top">
+      <div class="main-wrap">
+        <h1 class="page-title">Энциклопедия</h1>
+
+        <div id="cryptid-search" class="search-panel" role="search" aria-labelledby="search-panel-title">
+          <div class="search-panel__head">
+            <h2 id="search-panel-title" class="search-panel__title">Поиск криптида</h2>
+            <a href="#encyclopedia-top" class="search-panel__close" aria-label="Скрыть панель поиска" title="Закрыть">×</a>
+          </div>
+          <form id="cryptid-search-form" class="search-panel__form" action="encyclopedia.html" method="get">
+            <label for="cryptid-search-input">Название</label>
+            <input
+              type="search"
+              id="cryptid-search-input"
+              name="q"
+              placeholder="Например, бигфут"
+              autocomplete="off"
+            />
+            <button type="submit" class="btn-dark search-panel__submit">Найти</button>
+          </form>
+        </div>
+
+        <nav class="alpha-row" aria-label="Фильтр по букве">
+          <a class="alpha-btn" href="#letter-a">А</a>
+          <a class="alpha-btn" href="#letter-b">Б</a>
+          <a class="alpha-btn" href="#letter-v">В</a>
+          <a class="alpha-btn" href="#letter-g">Г</a>
+          <a class="alpha-btn" href="#letter-d">Д</a>
+          <a class="alpha-btn" href="#letter-e">Е</a>
+          <button type="button" class="alpha-btn alpha-btn--wide alpha-btn--expand">
+            ДРУГОЕ
+          </button>
+          <div class="alpha-row__more" aria-label="Остальные буквы алфавита">
+            <a class="alpha-btn" href="#letter-yo">Ё</a>
+            <a class="alpha-btn" href="#letter-zh">Ж</a>
+            <a class="alpha-btn" href="#letter-z">З</a>
+            <a class="alpha-btn" href="#letter-i">И</a>
+            <a class="alpha-btn" href="#letter-short-i">Й</a>
+            <a class="alpha-btn" href="#letter-k">К</a>
+            <a class="alpha-btn" href="#letter-l">Л</a>
+            <a class="alpha-btn" href="#letter-m">М</a>
+            <a class="alpha-btn" href="#letter-n">Н</a>
+            <a class="alpha-btn" href="#letter-o">О</a>
+            <a class="alpha-btn" href="#letter-p">П</a>
+            <a class="alpha-btn" href="#letter-r">Р</a>
+            <a class="alpha-btn" href="#letter-s">С</a>
+            <a class="alpha-btn" href="#letter-t">Т</a>
+            <a class="alpha-btn" href="#letter-u">У</a>
+            <a class="alpha-btn" href="#letter-f">Ф</a>
+            <a class="alpha-btn" href="#letter-kh">Х</a>
+            <a class="alpha-btn" href="#letter-ts">Ц</a>
+            <a class="alpha-btn" href="#letter-ch">Ч</a>
+            <a class="alpha-btn" href="#letter-sh">Ш</a>
+            <a class="alpha-btn" href="#letter-shch">Щ</a>
+            <a class="alpha-btn" href="#letter-eh">Э</a>
+            <a class="alpha-btn" href="#letter-yu">Ю</a>
+            <a class="alpha-btn" href="#letter-ya">Я</a>
+            <div class="alpha-row__more-footer">
+              <button type="button" class="alpha-btn alpha-btn--wide alpha-btn--collapse">
+                СКРЫТЬ
+              </button>
+            </div>
+          </div>
+        </nav>
+
+        <div class="encyclopedia-grid">
+          <div class="letter-group" id="letter-a">
+            <h2 class="letter-group__title">А</h2>
+            <a class="entry-card" id="cryptid-alma" href="#cryptid-alma"><img src="img/cryptid-alma.png" alt="" width="52" height="52" decoding="async" /><span>Альма</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-06.png" alt="" width="52" height="52" decoding="async" /><span>Алмасты, снежный человек</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-07.png" alt="" width="52" height="52" decoding="async" /><span>Ангар под Выборгом (1987 г.)</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Агропельтер</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-b">
+            <h2 class="letter-group__title">Б</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-09.png" alt="" width="52" height="52" decoding="async" /><span>Сибирская кошка</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Бигфут</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-11.png" alt="" width="52" height="52" decoding="async" /><span>Бегемот</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Болотный монстр</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-v">
+            <h2 class="letter-group__title">В</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-13.png" alt="" width="52" height="52" decoding="async" /><span>Волжский варан</span></a>
+            <a class="entry-card" id="cryptid-vakhila" href="#cryptid-vakhila"><img src="img/cryptid-vakhila.png" alt="" width="52" height="52" decoding="async" /><span>Вахила</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-15.png" alt="" width="52" height="52" decoding="async" /><span>Великан из Кандагара</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-g">
+            <h2 class="letter-group__title">Г</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Гигантский якутский червь</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-17.png" alt="" width="52" height="52" decoding="async" /><span>Глостерский морской зверь</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-18.png" alt="" width="52" height="52" decoding="async" /><span>Гончая с топором</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-19.png" alt="" width="52" height="52" decoding="async" /><span>Главакус</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-d">
+            <h2 class="letter-group__title">Д</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-20.png" alt="" width="52" height="52" decoding="async" /><span>Донецкий демон</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-21.png" alt="" width="52" height="52" decoding="async" /><span>Домодедовский конь</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Домики деревянные</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-23.png" alt="" width="52" height="52" decoding="async" /><span>Детский полицейский</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-e">
+            <h2 class="letter-group__title">Е</h2>
+            <a class="entry-card" id="cryptid-elisey" href="#cryptid-elisey"><img src="img/cryptid-elisey.png" alt="" width="52" height="52" decoding="async" /><span>Елисей</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-25.png" alt="" width="52" height="52" decoding="async" /><span>Енисей</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-26.png" alt="" width="52" height="52" decoding="async" /><span>Емеля Ярославский</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-18.png" alt="" width="52" height="52" decoding="async" /><span>Единорог русский (Московский)</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-yo">
+            <h2 class="letter-group__title">Ё</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Ёж Таракановский</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-zh">
+            <h2 class="letter-group__title">Ж</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Жар-птица онежская</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Ждун топкий</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-z">
+            <h2 class="letter-group__title">З</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Змей курский легендарный</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Заговорник липецкий</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Зюйд-вест мурманский</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-i">
+            <h2 class="letter-group__title">И</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Идымский зверь</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-short-i">
+            <h2 class="letter-group__title">Й</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Йети саянский</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Йошкар-олинский леший</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-k">
+            <h2 class="letter-group__title">К</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Кикимора ярославская</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-18.png" alt="" width="52" height="52" decoding="async" /><span>Кот Баюн байкальский</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Костромской кракозябр</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-l">
+            <h2 class="letter-group__title">Л</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Леший костромской</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-m">
+            <h2 class="letter-group__title">М</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Моль калининградская</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Мрак озёрный</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-n">
+            <h2 class="letter-group__title">Н</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Ночник тайгинский</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Нептун чёрноморский</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Навь нижегородская</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-o">
+            <h2 class="letter-group__title">О</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Оборотень омский</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-p">
+            <h2 class="letter-group__title">П</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Полудница рязанская</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Пуктус волжский</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-r">
+            <h2 class="letter-group__title">Р</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-18.png" alt="" width="52" height="52" decoding="async" /><span>Русалка донская</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Рух сибирский</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Рыжий тунгус</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-s">
+            <h2 class="letter-group__title">С</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Снежный страж Кольского</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-t">
+            <h2 class="letter-group__title">Т</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Туманник татарский</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Топь хлыновская</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-u">
+            <h2 class="letter-group__title">У</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Упырь угличский</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Увалень камский</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Усть-цильмский крикун</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-f">
+            <h2 class="letter-group__title">Ф</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Фантом ферапонтовский</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-kh">
+            <h2 class="letter-group__title">Х</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Хозяин тайги хантынский</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-18.png" alt="" width="52" height="52" decoding="async" /><span>Хромой всадник</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-ts">
+            <h2 class="letter-group__title">Ц</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Циклоп цимлянский</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Царь-рыба волжская</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Цепенщик курганский</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-ch">
+            <h2 class="letter-group__title">Ч</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Чудь беломорская</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-sh">
+            <h2 class="letter-group__title">Ш</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Шишига шекснинская</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-10.png" alt="" width="52" height="52" decoding="async" /><span>Шептун лесной</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-shch">
+            <h2 class="letter-group__title">Щ</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Щука астраханская-гигант</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Щучье озёрное чудище</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Щелчок болотный</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-eh">
+            <h2 class="letter-group__title">Э</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Эльтонский червь</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-yu">
+            <h2 class="letter-group__title">Ю</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-18.png" alt="" width="52" height="52" decoding="async" /><span>Юродивый из Кашина</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-08.png" alt="" width="52" height="52" decoding="async" /><span>Юкатеринбургский полтергейст</span></a>
+          </div>
+
+          <div class="letter-group" id="letter-ya">
+            <h2 class="letter-group__title">Я</h2>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-22.png" alt="" width="52" height="52" decoding="async" /><span>Ялмос алтайский</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-16.png" alt="" width="52" height="52" decoding="async" /><span>Яга младшая</span></a>
+            <a class="entry-card" href="#"><img src="img/encyclopedia-12.png" alt="" width="52" height="52" decoding="async" /><span>Яренский змей</span></a>
+          </div>
+
+        </div>
+
+        <div
+          class="encyclopedia-pager"
+          id="encyclopedia-pager"
+          role="navigation"
+          aria-label="Листание букв"
+        >
+          <button type="button" class="encyclopedia-pager__btn encyclopedia-pager__prev" id="encyclopedia-pager-prev">
+            Назад
+          </button>
+          <span class="encyclopedia-pager__status" id="encyclopedia-pager-status" aria-live="polite"></span>
+          <button type="button" class="encyclopedia-pager__btn encyclopedia-pager__next" id="encyclopedia-pager-next">
+            Вперёд
+          </button>
+        </div>
+
+        <div class="cta-wrap">
+          <a class="btn-dark" href="blogs.html">БЛОГИ</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <nav class="footer-links" aria-label="Нижнее меню">
+          <a href="#">Магазин</a>
+          <a href="#">Поддержать сайт</a>
+          <a href="#">Контакты</a>
+        </nav>
+        <nav class="footer-legal" aria-label="Правовая информация">
+          <a href="privacy.html">Политика конфиденциальности</a>
+          <span class="footer-legal__sep" aria-hidden="true">|</span>
+          <a href="cookies.html">Правила и условия использования файлов cookie</a>
+        </nav>
+        <div class="social" aria-label="Соцсети">
+          <a class="social__link" href="#" aria-label="Telegram">
+            <img src="img/telegram.png" alt="" width="32" height="32" decoding="async" />
+          </a>
+          <a class="social__link" href="#" aria-label="ВКонтакте">
+            <img src="img/vk.png" alt="" width="32" height="32" decoding="async" />
+          </a>
+        </div>
+        <div class="lang-switch" role="group" aria-label="Язык сайта">
+          <span class="lang-btn lang-btn--current" lang="ru">Ru</span>
+          <span class="lang-sep" aria-hidden="true">·</span>
+          <a href="en/encyclopedia.html" class="lang-btn" hreflang="en" lang="en">Eng</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/encyclopedia-search.js" defer></script>
+  </body>
+</html>
